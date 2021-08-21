@@ -83,6 +83,17 @@ import DisneyBack2 from "../images/disney/back2.jpeg";
 import StageAndScreen from "../images/stageAndScreen/main.jpeg";
 import StageAndScreenBack from "../images/stageAndScreen/back.jpeg";
 import Bg from "../images/bg.jpeg";
+
+import MusAnt1 from "../images/singersMus1/main.jpeg"
+import MusAnt1Back from "../images/singersMus1/back.jpeg"
+import MusAnt2 from "../images/singersMus2/main.jpeg"
+import MusAnt2Back from "../images/singersMus2/back.jpeg"
+import MusAnt3 from "../images/singersMus3/main.jpeg"
+import MusAnt3Back from "../images/singersMus3/back.jpeg"
+import MusAnt4 from "../images/singersMus4/main.jpeg"
+import MusAnt4Back from "../images/singersMus4/back.jpeg"
+import MusAnt5 from "../images/singersMus5/main.jpeg"
+import MusAnt5Back from "../images/singersMus5/back.jpeg"
 // data
 const books = [
   {
@@ -256,6 +267,31 @@ const books = [
     name: "Jekyll & Hyde",
     frontCover: JekylHyde,
     others: [JekylHydeBack],
+  },
+  {
+    name: "The Singers Musical Theatre Anthology 1",
+    frontCover: MusAnt1,
+    others: [MusAnt1Back],
+  },
+  {
+    name: "The Singers Musical Theatre Anthology 2",
+    frontCover: MusAnt2,
+    others: [MusAnt2Back],
+  },
+  {
+    name: "The Singers Musical Theatre Anthology 3",
+    frontCover: MusAnt3,
+    others: [MusAnt3Back],
+  },
+  {
+    name: "The Singers Musical Theatre Anthology 4",
+    frontCover: MusAnt4,
+    others: [MusAnt4Back],
+  },
+  {
+    name: "Musical Theatre Essentials",
+    frontCover: MusAnt5,
+    others: [MusAnt5Back],
   },
 ];
 

@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/solid";
+import { Helmet } from "react-helmet"
+
 
 import AvenueQ from "../images/avenueQ/avenue-q.jpeg";
 import AvenueQBack from "../images/avenueQ/avq-back.jpeg";
@@ -261,6 +263,11 @@ const books = [
 const IndexPage = () => {
   return (
     <main>
+       <Helmet>
+          <meta charSet="utf-8" />
+          <title>Mistcast Belfast</title>
+          <link rel="canonical" href="http://mysite.com/example" />
+        </Helmet>
       {/* <div className="h-14 bg-gray-700 w-full">
 
       </div> */}
@@ -273,7 +280,7 @@ const IndexPage = () => {
             </h1>
           </div>
           <div className="text-xl sm:text-4xl text-white pt-4 text-center">
-            We're back @ the lyric 
+            @ the lyric
           </div>
         </div>
       </section>
@@ -283,12 +290,13 @@ const IndexPage = () => {
         </p>
         <br />
         <p className="border-b-2 border-gray-200 w-full pb-4">
-          The world is healing - it's been too long since strangers all sang mama mia in a room together. Miscast is back with it's usual craic and with a big twist, we're now organised for all these mad rules.
+          The world is healing - it's been too long since strangers all sang mama mia in the same room together. A night of Miscast is finally here with it's usual craic but in person now. It's been a long time coming!
         </p>
         <br/>
-        <p className="pb-8">
-          Whether you're new or a veteran - a night at miscast can be a specatator sport, but don't label yourself too soon - our mantra is it's not if you <strong>can</strong> sing, it's if you <strong>will</strong> sing. As the night progresses (and with the aid of the bar) the true performer can be awakened - so take a look through our book collection to find a song that.
+        <p className="border-b-2 border-gray-200 w-full pb-4">
+          Whether you're new or a veteran - a night at Miscast can be a specatator sport, but don't label yourself too soon - our mantra is it's not if you <strong>can</strong> sing, it's if you <strong>will</strong> sing. As the night progresses (and with the aid of the bar) the true performer can be awakened - so take a look through our book collection to find a song that fits.
         </p>
+        <br/>
         <p>
           We only have one rule when choosing to sing, you can choose any song - as long as you can't be cast as that character. It's going to be a fun night!
         </p>
